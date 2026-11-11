@@ -1,6 +1,6 @@
 # ByteObsidian
 
-A responsive, static portfolio for ByteObsidian. The site has no build step or runtime dependencies.
+A responsive, static cybersecurity portfolio for ByteObsidian, highlighting security tooling, attack-surface research, application security, and responsible testing. Upstream security projects are explicitly credited. The site has no build step or runtime dependencies.
 
 ## Run locally
 
