@@ -6,16 +6,15 @@
     <meta name="theme-color" content="#f5f6ef">
     <meta
       name="description"
-      content="I'm Shu. I build small security tools, explore how the web fits together, and believe good security work starts with curiosity and respect for scope."
+      content="Shu is a cybersecurity analyst who builds browser tools for domain research and application security."
     >
-    <meta property="og:title" content="ByteObsidian — Hey, I'm Shu.">
+    <meta property="og:title" content="ByteObsidian | Shu">
     <meta
       property="og:description"
-      content="A cybersecurity portfolio by Shu: practical browser tools for domain research and application security."
+      content="A personal portfolio by Shu, featuring Domain Scanner and VenomVault."
     >
     <meta property="og:type" content="website">
-    <title>ByteObsidian — Hey, I'm Shu.</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>ByteObsidian | Shu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -29,9 +28,9 @@
     <div class="page-shell">
       <header class="site-header">
         <a class="wordmark" href="#home" aria-label="ByteObsidian home">
-          <span class="wordmark-mark" aria-hidden="true">B<span>.</span></span>
           <span>byteobsidian</span>
         </a>
+        <button class="theme-toggle" type="button" aria-pressed="false">Use dark theme</button>
         <button
           class="menu-toggle"
           type="button"
@@ -39,16 +38,13 @@
           aria-controls="primary-navigation"
           aria-label="Open navigation"
         >
-          <span></span>
-          <span></span>
+          Menu
         </button>
         <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
-          <a href="#focus">Focus areas</a>
-          <a href="#work">Security work</a>
-          <a href="#approach">Approach</a>
+          <a href="#work">Projects</a>
           <a href="#about">About</a>
           <a class="nav-contact" href="https://github.com/ByteObsidian" target="_blank" rel="noreferrer">
-            GitHub <span aria-hidden="true">↗</span>
+            GitHub
           </a>
         </nav>
       </header>
@@ -56,52 +52,32 @@
       <main>
         <section class="hero" id="home" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="status-dot"></span> Cybersecurity analyst · security-tool maker</p>
-            <h1 id="hero-title">Curious about<br>security. <span>Always.</span></h1>
+            <p class="eyebrow">Cybersecurity analyst and security-tool maker</p>
+            <h1 id="hero-title">Hey, I'm Shu.</h1>
             <p class="hero-description">
-              Hey, I’m Shu. I like figuring out how websites and apps fit together—and making
-              small tools that help people spot the details that matter.
+              I like figuring out how websites and apps fit together, then building small tools that make
+              security research a little easier.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#work">
-                A couple of things I’ve built <span aria-hidden="true">↓</span>
+                See my projects
               </a>
               <a class="text-link" href="https://github.com/ByteObsidian" target="_blank" rel="noreferrer">
-                Come say hi on GitHub <span aria-hidden="true">↗</span>
+                Come say hi on GitHub
               </a>
-            </div>
-            <div class="hero-note">
-              <span class="note-rule"></span>
-              <span>Always learning. Always in scope.</span>
             </div>
           </div>
 
-          <div class="hero-art" aria-hidden="true">
-            <div class="orbit orbit-one"></div>
-            <div class="orbit orbit-two"></div>
-            <div class="orbit orbit-three"></div>
-            <div class="orbit-core">
-              <span class="core-glow"></span>
-              <span class="core-letter">B</span>
-              <span class="core-caption">BYTE<br>OBSIDIAN</span>
-            </div>
-            <span class="orbit-label orbit-label-top">CURIOUS BY NATURE</span>
-            <span class="orbit-label orbit-label-right">TEST WITH CARE</span>
-            <span class="orbit-label orbit-label-bottom">MAKE THE WEB A LITTLE SAFER</span>
-            <span class="art-cross cross-one">+</span>
-            <span class="art-cross cross-two">+</span>
-          </div>
-          <div class="hero-index"><span>01</span> / A LITTLE INTRO</div>
         </section>
 
         <section class="work-section section-wrap" id="work" aria-labelledby="work-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Useful things, built with curiosity <span class="eyebrow-line"></span></p>
-              <h2 id="work-title">A couple of projects<span class="accent-dot">.</span></h2>
+              <p class="eyebrow">Projects</p>
+              <h2 id="work-title">A couple of things I've built</h2>
             </div>
             <a class="text-link section-link" href="https://github.com/ByteObsidian?tab=repositories" target="_blank" rel="noreferrer">
-              More on GitHub <span aria-hidden="true">↗</span>
+              More on GitHub
             </a>
           </div>
 
@@ -112,22 +88,9 @@
               target="_blank"
               rel="noreferrer"
             >
-              <div class="project-visual domain-visual" aria-hidden="true">
-                <div class="visual-window">
-                  <div class="window-top"><i></i><i></i><i></i><span>domain overview</span></div>
-                  <div class="domain-url"><span class="url-lock">⌑</span> example.dev <span class="url-check">✓</span></div>
-                  <div class="domain-stats">
-                    <span><b>DNS</b><i class="stat-line"></i></span>
-                    <span><b>SSL</b><i class="stat-line short"></i></span>
-                    <span><b>RDAP</b><i class="stat-line"></i></span>
-                  </div>
-                </div>
-                <span class="visual-orbit orbit-a"></span>
-                <span class="visual-orbit orbit-b"></span>
-              </div>
-              <div class="project-meta"><span>01 / ATTACK-SURFACE RESEARCH</span><span>MY PROJECT</span></div>
+              <div class="project-meta"><span>DOMAIN RESEARCH</span><span>BUILT BY ME</span></div>
               <div class="project-title-row">
-                <h3>Domain Scanner</h3><span class="project-arrow" aria-hidden="true">↗</span>
+                <h3>Domain Scanner</h3>
               </div>
               <p>Domain research without a dozen tabs. Look up DNS, hosting, certificates, redirects, and registration info in one place.</p>
               <div class="tag-list"><span>Attack surface</span><span>DNS &amp; RDAP</span><span>Chrome</span></div>
@@ -139,100 +102,37 @@
               target="_blank"
               rel="noreferrer"
             >
-              <div class="project-visual vault-visual" aria-hidden="true">
-                <div class="vault-panel">
-                  <div class="vault-header"><span class="vault-mark">V</span><span>VENOM VAULT</span><i>OFFLINE</i></div>
-                  <div class="vault-search"><span>⌕</span> Search reference library <span>⌘ K</span></div>
-                  <div class="vault-category"><span>01</span><b>Cross-site scripting</b><i>›</i></div>
-                  <div class="vault-category"><span>02</span><b>Injection testing</b><i>›</i></div>
-                  <div class="vault-category"><span>03</span><b>Server-side requests</b><i>›</i></div>
-                  <div class="vault-footer"><span>CURATED SECURITY REFERENCES</span><span>LOCAL ONLY</span></div>
-                </div>
-              </div>
-              <div class="project-meta"><span>02 / SECURITY TOOLING</span><span>MY PROJECT</span></div>
+              <div class="project-meta"><span>BROWSER EXTENSION</span><span>BUILT BY ME</span></div>
               <div class="project-title-row">
-                <h3>VenomVault</h3><span class="project-arrow" aria-hidden="true">↗</span>
+                <h3>VenomVault</h3>
               </div>
               <p>I wanted security-testing references close at hand, so I built a searchable browser extension that works offline, too.</p>
               <div class="tag-list"><span>Security research</span><span>Offline-first</span><span>Chrome</span></div>
             </a>
 
           </div>
-          <p class="work-footnote"><span>✳</span> Just my own projects—made to learn something and, hopefully, be useful.</p>
-        </section>
-
-        <section class="focus-section section-wrap" id="focus" aria-labelledby="focus-title">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">What keeps me curious <span class="eyebrow-line"></span></p>
-              <h2 id="focus-title">Things I like digging into<span class="accent-dot">.</span></h2>
-            </div>
-          </div>
-          <div class="focus-grid">
-            <article class="focus-card">
-              <span class="focus-number">01</span>
-              <h3>How apps behave</h3>
-              <p>The little details in web apps that can make a big difference to security.</p>
-              <span class="focus-evidence">VENOMVAULT</span>
-            </article>
-            <article class="focus-card">
-              <span class="focus-number">02</span>
-              <h3>What a domain reveals</h3>
-              <p>Following the trail through DNS, registration, hosting, and certificates.</p>
-              <span class="focus-evidence">DOMAIN SCANNER</span>
-            </article>
-          </div>
-        </section>
-
-        <section class="approach-section" id="approach" aria-labelledby="approach-title">
-          <div class="approach-inner section-wrap">
-            <div class="approach-heading">
-              <p class="eyebrow">The way I like to work <span class="eyebrow-line"></span></p>
-              <h2 id="approach-title">Stay curious.<br><span>Be considerate.</span></h2>
-              <p>Security should make things better for people. That starts with doing the work thoughtfully.</p>
-            </div>
-            <div class="approach-steps">
-              <article class="approach-step">
-                <span>01</span>
-                <div><h3>Know the boundaries</h3><p>Only test systems when you have clear permission to do so.</p></div>
-              </article>
-              <article class="approach-step">
-                <span>02</span>
-                <div><h3>Check twice</h3><p>Take the time to verify what you see before calling it a finding.</p></div>
-              </article>
-              <article class="approach-step">
-                <span>03</span>
-                <div><h3>Share what helps</h3><p>Explain things clearly, so people can figure out what to do next.</p></div>
-              </article>
-            </div>
-          </div>
         </section>
 
         <section class="about-section" id="about" aria-labelledby="about-title">
           <div class="about-inner section-wrap">
             <div class="about-intro">
-              <p class="eyebrow">A bit more about me <span class="eyebrow-line"></span></p>
-              <h2 id="about-title">Still learning,<br>one project at a time<span class="accent-dot">.</span></h2>
+              <p class="eyebrow">About</p>
+              <h2 id="about-title">A little about me</h2>
             </div>
             <div class="about-copy">
-              <p class="about-lead">I’m Shu, the person behind ByteObsidian.</p>
+              <p class="about-lead">I'm Shu, the person behind ByteObsidian.</p>
               <p>
-                I’m a cybersecurity analyst who enjoys following a question down the rabbit hole.
-                Lately, that’s meant exploring what a domain can tell you and building simple browser
+                I'm a cybersecurity analyst who enjoys figuring out how websites fit together.
+                Lately, that's meant exploring what a domain can tell you and building simple browser
                 tools for security research.
               </p>
               <p>
-                I’m still learning as I go. I try to stay within scope, check my assumptions, and share
-                what I learn in a way that’s useful to someone else.
+                I'm still learning as I go. I try to stay within scope, check my assumptions, and share
+                what I learn in a way that's useful to someone else.
               </p>
               <a class="button button-outline" href="https://github.com/ByteObsidian" target="_blank" rel="noreferrer">
-                See what I’m working on <span aria-hidden="true">↗</span>
+                See what I'm working on
               </a>
-            </div>
-            <div class="about-stamp" aria-hidden="true">
-              <span class="stamp-top">TEST WITH</span>
-              <span class="stamp-center">✳</span>
-              <span class="stamp-bottom">CARE</span>
             </div>
           </div>
         </section>
@@ -240,14 +140,13 @@
 
       <footer class="site-footer">
         <a class="wordmark footer-wordmark" href="#home">
-          <span class="wordmark-mark" aria-hidden="true">B<span>.</span></span>
           <span>byteobsidian</span>
         </a>
-        <p>Made with curiosity (and a lot of browser tabs).</p>
+        <p>Security tools made by Shu.</p>
         <a class="footer-link" href="https://github.com/ByteObsidian" target="_blank" rel="noreferrer">
-          GITHUB <span aria-hidden="true">↗</span>
+          GitHub
         </a>
-        <span class="copyright">© <span id="current-year">2026</span> BYTEOBSIDIAN</span>
+        <span class="copyright"><span id="current-year">2026</span> ByteObsidian</span>
       </footer>
     </div>
   </body>

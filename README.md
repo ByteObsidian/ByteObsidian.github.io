@@ -1,6 +1,6 @@
 # ByteObsidian
 
-A responsive, static cybersecurity portfolio for ByteObsidian, highlighting security tooling, attack-surface research, application security, and responsible testing. Upstream security projects are explicitly credited. The site has no build step or runtime dependencies.
+A responsive, static cybersecurity portfolio featuring ByteObsidian's original Domain Scanner and VenomVault projects. It includes a light theme and a dark theme that is remembered on the device. There is no build step or runtime dependency.
 
 ## Run locally
 
