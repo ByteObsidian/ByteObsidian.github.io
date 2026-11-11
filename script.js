@@ -4,7 +4,7 @@ const themeButton = document.querySelector(".theme-toggle");
 const themeColor = document.querySelector('meta[name="theme-color"]');
 
 const savedTheme = localStorage.getItem("theme");
-const initialTheme = savedTheme === "dark" ? "dark" : "light";
+const initialTheme = savedTheme === "light" ? "light" : "dark";
 document.documentElement.dataset.theme = initialTheme;
 
 if (themeButton) {
