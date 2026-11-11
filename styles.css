@@ -1819,3 +1819,291 @@ h2 {
     animation-iteration-count: 1 !important;
   }
 }
+
+:root {
+  color-scheme: light;
+  --ink: #20271f;
+  --muted: #677065;
+  --faint: #81887c;
+  --bg: #f5f6ef;
+  --panel: #ffffff;
+  --panel-soft: #edf0e7;
+  --line: #dde2d8;
+  --lime: #c3ec76;
+  --lime-dark: #7e9f46;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 83% 8%, rgb(173 197 132 / 16%), transparent 31rem),
+    #f5f6ef;
+  color: #20271f;
+}
+
+body::before {
+  opacity: 0.045;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgb(245 246 239 / 90%);
+  backdrop-filter: blur(16px);
+}
+
+.wordmark,
+.footer-wordmark {
+  color: #263027;
+}
+
+.wordmark-mark {
+  border-color: #b7c1ad;
+}
+
+.wordmark-mark span {
+  color: #263027;
+}
+
+.site-nav {
+  color: #626c61;
+}
+
+.site-nav .nav-contact {
+  border-color: #cbd4c3;
+  color: #283126;
+}
+
+.hero {
+  border-bottom-color: #dce2d7;
+}
+
+.eyebrow {
+  color: #687365;
+}
+
+.hero-description {
+  color: #626a60;
+}
+
+.button-primary {
+  background: #c3ec76;
+  color: #20271b;
+}
+
+.text-link {
+  color: #3e4b3b;
+}
+
+.hero-note {
+  color: #6c7569;
+}
+
+.note-rule,
+.eyebrow-line {
+  background: #aab69d;
+}
+
+.orbit {
+  border-color: rgb(100 123 75 / 26%);
+}
+
+.orbit-three {
+  border-color: rgb(100 123 75 / 32%);
+}
+
+.orbit-label {
+  color: #67775d;
+}
+
+.art-cross {
+  color: #728161;
+}
+
+.hero-index {
+  color: #6d766b;
+}
+
+.work-section {
+  padding-top: 104px;
+  padding-bottom: 90px;
+}
+
+.section-heading .eyebrow,
+.about-intro .eyebrow {
+  color: #687365;
+}
+
+.project-card {
+  border-color: #dce1d7;
+  border-radius: 9px;
+  background: #fffefa;
+  box-shadow: 0 2px 6px rgb(34 47 30 / 3%);
+}
+
+.project-card:hover {
+  border-color: #b7c9a6;
+  background: #fffefa;
+  box-shadow: 0 14px 35px rgb(34 47 30 / 9%);
+}
+
+.project-visual {
+  border-radius: 5px;
+}
+
+.project-meta {
+  color: #71796f;
+}
+
+.project-meta span:last-child {
+  color: #667c51;
+}
+
+.project-title-row h3 {
+  color: #273128;
+}
+
+.project-arrow {
+  color: #657160;
+}
+
+.project-card > p {
+  color: #646d62;
+}
+
+.tag-list span {
+  border-color: #dce2d7;
+  color: #576253;
+}
+
+.work-footnote {
+  color: #687267;
+}
+
+.focus-section {
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+
+.focus-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.focus-card {
+  min-height: 177px;
+  border-color: #dce1d7;
+  border-radius: 9px;
+  background: #fffefa;
+  box-shadow: 0 2px 6px rgb(34 47 30 / 3%);
+}
+
+.focus-number {
+  color: #708d4b;
+}
+
+.focus-card h3 {
+  color: #293329;
+}
+
+.focus-card p {
+  color: #646d62;
+}
+
+.focus-evidence {
+  color: #667b53;
+}
+
+.approach-section {
+  background:
+    radial-gradient(ellipse at 16% 42%, rgb(142 174 111 / 12%), transparent 30rem),
+    #202a23;
+}
+
+.approach-inner {
+  min-height: 330px;
+}
+
+.approach-heading .eyebrow {
+  color: #b7c2ae;
+}
+
+.approach-heading .eyebrow-line {
+  background: #71806d;
+}
+
+.about-section {
+  border-color: #dfe5d8;
+  background:
+    radial-gradient(ellipse at 80% 60%, rgb(161 187 125 / 17%), transparent 32rem),
+    #edf1e7;
+}
+
+.about-lead {
+  color: #303b30;
+}
+
+.about-copy > p:not(.about-lead) {
+  color: #626b60;
+}
+
+.button-outline {
+  border-color: #b8c5ad;
+  color: #354232;
+}
+
+.button-outline:hover {
+  border-color: #829e65;
+  background: rgb(132 164 94 / 8%);
+}
+
+.about-stamp {
+  border-color: rgb(112 139 80 / 32%);
+  color: #71875c;
+}
+
+.about-stamp::before {
+  border-color: rgb(112 139 80 / 24%);
+}
+
+.site-footer {
+  border-top: 1px solid #dfe3da;
+}
+
+.site-footer > p {
+  color: #697267;
+}
+
+.footer-link {
+  color: #4b5847;
+}
+
+.copyright {
+  color: #71786e;
+}
+
+@media (max-width: 700px) {
+  .site-nav {
+    border-bottom-color: #dce2d7;
+    background: rgb(247 248 243 / 98%);
+  }
+
+  .site-nav > a:not(.nav-contact) {
+    border-bottom-color: #e2e6df;
+  }
+
+  .menu-toggle {
+    border-color: #c8d1c1;
+  }
+
+  .menu-toggle span {
+    background: #30392e;
+  }
+
+  .focus-section {
+    padding-bottom: 68px;
+  }
+
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
